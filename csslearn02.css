@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dabba{
+    width: 300px;
+    height: 300px;
+    margin: 3rem;
+    background-color: cadetblue;
+    color: white ;
+    border: 5px double darkblue;
+    border-radius: 50%;
+}
+#para{
+    width: 200px;
+    height: 200px;
+    margin: 3rem;
+    background-color: rgb(188, 20, 149);
+    color: white ;
+    border: 5px dotted rgb(25, 68, 7);
+    border-radius: 50%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 15px solid black;
+            border-radius: 50%;
+            animation: loader 4s ease 1s infinite normal;
+
+        }
+        @keyframes loader{
+            0%{
+                width: 200px;
+            height: 200px;
+            border: 15px solid white;
+            border-top: 15px solid white;
+            border-radius: 50%;
+            transform: rotate(0deg);
+            }
+            30%{
+                width: 200px;
+            height: 200px;
+            border: 15px solid white;
+            border-top: 15px solid rgb(163, 65, 65);
+            border-radius: 50%;
+            transform: rotate(180);
+            }
+            50%{
+                width: 200px;
+            height: 200px;
+            border: 15px solid white;
+            border-top: 15px solid rgb(241, 9, 222);
+            border-radius: 50%;
+            transform: rotate(180);
+            }
+
+            100%{
+                width: 200px;
+            height: 200px;
+            border: 15px solid white;
+            border-top: 15px solid rgb(21, 187, 12);
+            border-radius: 50%;
+            transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

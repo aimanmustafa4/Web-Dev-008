@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            width: 100%;
+        }
+
+        .items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+
+        }
+        .links ul li{
+            list-style: none;
+            padding: 1rem;
+        }
+        .links ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .btn-1{
+            background-color: darkgoldenrod;
+            padding:  .3rem 1rem;
+            border: 3px solid goldenrod;
+            border-radius: 1rem;
+        }
+        .btn-2{
+            background-color: darkgoldenrod;
+            padding:  .3rem 1rem;
+            border: 3px solid goldenrod;
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="media/mtj.png"  width="100px"  alt="logo">
+        </div>
+        <div class="links">
+            <ul class="items">
+                <li><a href="#" id="item1">Home</a></li>
+                <li><a href="#" id="item2">About Us</a></li>
+                <li><a href="#" id="item3">Policy</a></li>
+                <li><a href="#" id="item4">Services</a></li>
+                <li><a href="#" id="item5">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <button class="btn-1">Login</button>
+            <button class="btn-2">Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>

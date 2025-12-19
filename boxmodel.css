@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.daba2{
+    background-color: thistle;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+    padding: 2rem;
+    display: inline-block;
+}
+
+/* inline-display: it takes the only space it requires
+block-display: it takes the full width 
+inline-block: combo of inline and block*/

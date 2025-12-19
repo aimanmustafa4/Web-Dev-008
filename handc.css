@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 400px;
+    margin: 15rem;
+    padding: 2rem;
+    background: thistle;
+    border: 3px solid black;
+/* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 5s; */
+    transition: all 3s ease .7s;
+    /* transform: skew(90deg); */
+    
+
+}
+
+.box:hover{
+    background-color: blue;
+    color: azure;
+    border-radius: 50%;
+    transform: skew(90deg);
+  
+}
+ 
+.box:active{
+    background-color: rgb(255, 0, 234);
+    color: rgb(31, 210, 210);
+    border-radius: 5rem;
+    transform: translate(300px);
+ 
+}
+.box button:hover{
+    background-color: rgb(255, 0, 234);
+    padding: 1rem;
+}

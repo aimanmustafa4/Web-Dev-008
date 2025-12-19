@@ -1,0 +1,29 @@
+/* universal selector */
+/*     * asterisk */
+*{
+    background-color: teal;
+}
+
+/* element/tag selector */
+h1{
+    color: brown;
+    background-color: black;
+    text-align: center;
+}
+
+p{
+    background-color: chartreuse;
+}
+/* class selector */
+.head{
+    color: rgb(247, 241, 241);
+    background-color: black;
+    text-align: center;
+}
+
+/* id selector */
+#para{
+    background-color: blue;
+    color: white;
+}
+

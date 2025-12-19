@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-weight: lighter;
+    /* text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-line: line-through; */
+    text-decoration: red double underline;
+}
+p{
+    color: darkblue;
+    /* background-color: cadetblue; */
+    text-align:center ;
+    text-decoration: red double underline;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration: crimson wavy underline;
+}

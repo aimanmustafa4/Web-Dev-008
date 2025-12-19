@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+ height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border: 8px double black;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}

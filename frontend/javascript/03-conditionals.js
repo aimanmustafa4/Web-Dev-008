@@ -25,8 +25,15 @@ if(percentage>=90){
 
 let anyNumber = 78;
 anyNumber += 56;
-anyNumber /= 23;
+// anyNumber /= 23;
 console.log(anyNumber);
+
+
+
+
+
+
+
 
 let day = prompt("what day is today");
 switch (day) {
@@ -41,7 +48,6 @@ switch (day) {
         break;
     default:
         console.log("today is neither friday nor monday");
-        
         break;
 }
 

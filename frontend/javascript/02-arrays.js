@@ -49,18 +49,25 @@ console.log(arrayNames[4]);
 
 
 
-// ghaniiiaaaaaaa
+
 
 let a=45;
 let b=50;
-console.log(a+b)
+let sum = a+b;
+console.log(sum);
+
+// console.log(a+b)
 console.log(a-b)
 console.log(a*b)
 console.log(a%b)
 console.log(a/b)
+
+
+
+
  let obtain = 57 ;
  let total = 200;
-  let percentage = (obtain/total)*100;
+let percentage = (obtain/total)*100;
 
 console.log(percentage);
 
